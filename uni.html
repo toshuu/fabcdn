@@ -1,0 +1,81 @@
+
+  
+<!-- Uni data -->  
+  
+ <div id='toastingdiv' class='animated fadeInUp' style='display:none;animation-duration:.4s;width:100%;height:30px;background-color:#0E1E24;color:white;font-family:primer;position:fixed;bottom:0px;padding:8px;text-align:center'><span style='margin-left:12px;text-align:center' id='notice'>No Info</span></div>
+ 
+ <div id='closer' class='animated fadeInUp' style='display:none;animation-duration:.4s;width:100%;height:30px;background-color:#0E1E24;color:white;font-family:primer;position:fixed;bottom:0px;padding:8px;text-align:center;z-index:10' onclick='iframeclose()'><span style='margin-left:0px;text-align:center;font-family:text' class='hvr-shrink'>Close Now</span></div>
+ <div id='vidcloser' class='animated fadeInUp' style='display:none;animation-duration:.4s;width:100%;height:30px;background-color:#0E1E24;color:white;font-family:primer;position:fixed;bottom:0px;padding:8px;text-align:center;z-index:10' onclick='vidframeclose()'><span style='margin-left:0px;text-align:center;font-family:text' class='hvr-shrink'>Close Now</span></div>
+ 
+ 
+ <div id='framediv' class='animated fadeInUp' style='display:none;animation-duration:.4s;width:100%;height:100%;;background-color:#ddd;color:white;font-family:primer;position:fixed;top:50px;padding:0px;text-align:center;margin:0px;z-index:9'><iframe src='' id='frame' name='frame' style='width:96%;height:100%;margin-top:10px;border-radius:8px;border:2px solid #f3f3f3;background:url(fast/img/loader.gif) center center no-repeat; background-size: 96px auto;' class=''> </iframe></div>
+ 
+ <div id='viddiv' class='animated fadeInUp' style='display:none;animation-duration:.4s;width:100%;height:100%;;background-color:#ddd;color:white;font-family:primer;position:fixed;top:50px;padding:0px;text-align:center;margin:0px;z-index:9'><iframe src='' id='vframe' name='vframe' style='width:96%;height:360px;margin-top:10px;border-radius:8px;border:2px solid #f3f3f3;background:url(fast/img/loader.gif) center center no-repeat; background-size: 96px auto;' class=''> </iframe></div>
+
+
+ <div id='operator2' class='animated fadeIn' style='position:fixed;top:200px;right:0px;width:155px;height:125px;left:0px;margin-left:auto;margin-right:auto;display:none;background-color:hsla(155, 100%, 0%, 0.73);padding:12px;border-radius:6px;'><img style='position:absolute;top:20px;right:0px;width:55px;left:0px;margin-left:auto;margin-right:auto;z-index:999999' id='' src='https://image.flaticon.com/icons/svg/291/291201.svg'/><br><br><br><br><br><center><p style='color:white;margin-top:-10px;font-family:work sans;font-size:18px'>Success !</p></center></div>
+ <div id='operator1' class='animated fadeIn' style='position:fixed;top:200px;right:0px;width:155px;height:125px;left:0px;margin-left:auto;margin-right:auto;display:none;background-color:hsla(155, 100%, 0%, 0.73);padding:12px;border-radius:6px;'><img style='position:absolute;top:20px;right:0px;width:75px;left:0px;margin-left:auto;margin-right:auto;z-index:999999' id='' src='https://thumbs.gfycat.com/LoneDetailedFairybluebird-max-1mb.gif'/><br><br><br><br><br><center><p style='color:white;margin-top:-10px;font-family:work sans;font-size:18px'>Processing</p></center></div>
+ 
+   
+ <div id='prediv' class='' style='display:;animation-duration:.4s;width:100%;height:100%;background-color:#f0f0f0;color:black;position:fixed;bottom:0px;padding:0px;left:0px;text-align:center;z-index:10'>
+ <span style='position:relative;top:180px;right:0px;left:0px;margin-left:auto;margin-right:auto;z-index:999999;'><img style='width:75px;' id='' src='fast/img/loader.gif'/><br>Just a second</span><br><br><br><br>
+ </div>
+ 
+ <!-- Settings -->
+<div id='settings' class='settingsdiv animated fadeIn' style='display:none;animation-duration:.6s;background-color:hsla(332, 100%, 0%, 0.90)'> 
+<center><p class='hl animated fadeInUp' id='settingstitle'  style='margin-top:0px;font-family:text;background-color:black;padding:12px;color:white;animation-duration:.2s'>Settings</p></center>
+ <div class="row settings">
+ 
+    <div class="col-xs-4 animated fadeInUp" style='animation-duration:.4s'><div class="box"><center><i class="uil uil-home"></i><br>Home</center></div> </div>
+    <div class="col-xs-4 animated fadeInUp" style='animation-duration:.4s'><div class="box"><center><i class="uil uil-cog"></i><br>Settings</center></div> </div>
+    <div class="col-xs-4 animated fadeInUp" style='animation-duration:.4s'><div class="box"><center><i class="uil uil-cloud-info"></i><br>Cloud</center></div> </div>
+<br><br><br><br><br>
+    <div class="col-xs-4 animated fadeInUp" style='animation-duration:.4s'><div class="box"><center><i class="uil uil-analytics"></i><br>Analytics</center></div> </div>
+    <div class="col-xs-4 animated fadeInUp" style='animation-duration:.4s' ><div class="box"><center><i class="uil uil-hunting"></i><br>Location</center></div> </div>
+    <div class="col-xs-4 animated fadeInUp" style='animation-duration:.4s'><div class="box"><center><i class="uil uil-rupee-sign"></i><br>Currency</center></div> </div>
+<br><br><br><br><br>
+    <div class="col-xs-4 animated fadeInUp" style='animation-duration:.4s'><div class="box"><center><i class="uil uil-comment-edit"></i><br>Feedback</center></div> </div>
+    <div class="col-xs-4 animated fadeInUp" style='animation-duration:.4s'><div class="box"><center><i class="uil uil-share"></i><br>Share</center></div> </div>
+    <div class="col-xs-4 animated fadeInUp" style='animation-duration:.4s'><div class="box"><center><i class="uil uil-comments"></i><br>About</center></div> </div>
+
+
+ <div id='settingscloser' class='animated fadeInUp' style='display:none;animation-duration:.4s;width:100%;height:30px;background-color:#1ED760;color:#fff;font-family:primer;position:fixed;bottom:0px;padding:8px;text-align:center;z-index:10' onclick='settingsclose()'><span style='margin-left:0px;text-align:center;font-family:text' class='hvr-shrink'>Close Now</span></div>
+
+</div>
+</div>
+ <!-- Settings Ends -->
+
+<!-- Bottom menu -->
+
+
+<div id='botdiv' class='animated fadeInUp ' style='font-family:text;animation-duration:.3s;border:1px outset grey;border-top:5px solid #000;overflow-y:scroll;padding:22px;background-color:#fff;width:85.3%;height:55%;position:fixed;bottom:0px;z-index:21;border-top-left-radius:8px;border-top-right-radius:8px;margin-left:4px;margin-right:4px;display:none'> 
+<center>
+<p style='font-size:24px;margin-top:-2px;margin-bottom:8px' class=''>All Option</p><hr class='fade' />
+</center>
+
+
+<div class="animated fadeInUp" style="animation-duration:.9s;" id="contentload"></div>
+
+</ul>
+
+</div>
+
+<!-- Bottom menu Ends -->
+
+
+ 
+<div id='headerdiv' style='font-family:text;height:60px;width:100%;position:fixed;z-index:20;top:0px;animation-duration:.5s;display:none' class='main shadow1 animated fadeInDown'> 
+
+<p class='right hvr-shrink' onclick='settings()'> <i class="uil uil-ellipsis-v"></i></p>
+<p class='left hvr-shrink' onclick='botx()'> <i class="uil uil-home"></i></p>
+<p class='center' style='font-size:16px;margin-top:-43px'>App Title</p>
+
+</div>
+
+ <br><br><Br><Br>
+ <div class="qrtabs" id='tabsdiv' style='display:none;animation-duration:.3s;z-index:20'>
+      <div class="col s3 qrtabinternal" onclick="tab1();" id='tab1option'><center><img id='tab1icon' src='https://image.flaticon.com/icons/svg/126/126830.svg' style='width:28px;' /><br>Home</center></div>
+      <div class="col s3 qrtabinternal" onclick="tab2()" id='tab2option'><center><img id='tab2icon' src='https://image.flaticon.com/icons/svg/1665/1665746.svg' style='width:20px;' /><br>Students</center></div>
+      <div class="col s3 qrtabinternal" onclick="tab3();" id='tab3option'><center><img id='tab3icon' src='https://image.flaticon.com/icons/svg/1152/1152827.svg' style='width:20px;' /><br>Progress</center></div>
+      <div class="col s3 qrtabinternal" onclick="tab4();" id='tab4option'><center><img id='tab4icon' src='https://image.flaticon.com/icons/svg/214/214342.svg' style='width:20px;' /><br>Settings</center></div>
+    </div>
